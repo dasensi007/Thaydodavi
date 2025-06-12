@@ -1,0 +1,79 @@
+DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Para o Amor da Minha Vida</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #fff0f5;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #ff69b4;
+      color: white;
+      padding: 2rem 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    p {
+      max-width: 700px;
+      margin: 1rem auto;
+      font-size: 1.2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+      padding: 1rem;
+      background: #ffe4ec;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Para Minha Namorada 💖</h1>
+    <p>Esse site é uma pequena homenagem para você, que faz meus dias mais leves, doces e inesquecíveis.</p>
+  </header>
+
+  <section>
+    <h2>Nossa História</h2>
+    <p>
+      Cada momento com você é especial. Seja em uma viagem, numa festa, ou simplesmente em silêncio,
+      eu agradeço por ter você ao meu lado. Essa página guarda nossas memórias com carinho,
+      para você saber o quanto é amada.
+    </p>
+  </section>
+
+  <section>
+    <h2>📸 Nossas Aventuras</h2>
+    <div class="gallery">
+      <img src="images/viagem-paraty.jpg" alt="Viagem para Paraty" />
+      <img src="images/aniversario.jpg" alt="Aniversário juntos" />
+      <img src="images/casal-praia.jpg" alt="Dia na praia" />
+      <img src="images/formatura.jpg" alt="Formatura" />
+      <img src="images/picnic.jpg" alt="Nosso picnic" />
+      <!-- Adicione mais imagens aqui -->
+    </div>
+  </section>
+
+  <footer>
+    Feito com muito amor por você 💕
+  </footer>
+</body>
+</html>
